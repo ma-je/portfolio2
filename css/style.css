@@ -5,6 +5,12 @@
     Author URL: https://bootstrapmade.com
 */
 
+#skills-table {
+	/*border: 4px solid black;*/
+	width: 90%;
+	margin: 0 auto;
+}
+
 body {
 	line-height: 1.4;
 	font-family: 'Roboto', sans-serif;
@@ -74,18 +80,18 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
+  from { bottom:-100px; opacity:0 }
   to { bottom:0px; opacity:1 }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
   to{ bottom:0; opacity:1 }
 }
 
 /***********************************
 ************************************
-HEADER 
+HEADER
 ************************************
 ***********************************/
 .header{
@@ -105,7 +111,7 @@ HEADER
 .navbar-default {
     background-color: transparent;
     border:0px;
-    padding: 20px 0; 
+    padding: 20px 0;
     transition: all 0.3s;
 }
 
@@ -115,7 +121,7 @@ HEADER
 }
 
 .top-nav-collapse {
-    padding: 0; 
+    padding: 0;
     background: rgba(64,75,97, 0.9);
 }
 
@@ -676,7 +682,7 @@ cta
     background-color: rgb(73, 84, 105);
 }
 .cta .cta-info {
-    
+
     width: 100%;
     float: left;
     padding: 30px 25px 30px 15px;
